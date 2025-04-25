@@ -6,7 +6,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -90%);
+    transform: translate(-50%, -70%);
 }
 
 #box2{
@@ -17,7 +17,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 295%);
+    transform: translate(-50%, 700%);
 }
 
 #link1:hover {
