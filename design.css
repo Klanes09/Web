@@ -153,7 +153,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 400%);
+    transform: translate(-50%, 750%);
     width: 70px;
     height: 20px;
     border-radius: 20px;
