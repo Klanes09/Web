@@ -1,0 +1,160 @@
+#box1{
+    width: 900px;
+    height: 400px;
+    background-color: #351551;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+
+#box2{
+    width: 800px;
+    height: 700x;
+    background-color: #351551;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 295%);
+}
+
+#link1:hover {
+  color: grey;
+}
+#link1:visited{
+    color: rgb(98, 39, 98);
+}
+#link1:active{
+    color: white;
+}
+#link1{
+    color:whitesmoke ;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body{
+    background: linear-gradient(to bottom, #916ab4, #351551);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    
+}
+
+#img1{
+   transform: translateX(20px);
+   position: relative;
+   top: 30px;
+}
+
+#p1{
+    color:white;
+    position: relative;
+
+    transform: translateX(180px);
+    bottom: 115px;
+}
+
+#p2{
+    color:white;
+    position: relative;
+    transform: translateX(180px);
+    bottom: 100px;
+}
+
+#p3{
+    color:white;
+    position: relative;
+    transform: translateX(20px);
+    bottom: 85px;
+}
+
+#h1{
+    color:white;
+    position: relative;
+    text-align: center;
+}
+
+/* Para to sa page two yung css*/
+
+#h2{
+    color:white;
+    position: relative;
+    text-align: center;
+}
+
+#h3{
+    color:white;
+    position: relative;
+    text-align: center;
+}
+
+#box3{
+    width: 300px;
+    height: 200px;
+    background-color: #351551;
+    border-radius: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+
+#box4{
+    width: 150px;
+    height: 20px;
+    background-color: #351551;
+    border-radius: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+}
+
+.a{
+    color:white;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    left: 50px;
+    bottom: -50px;
+}
+.a:hover {
+  color: orange;
+}
+
+#link2{
+    color:whitesmoke ;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#link2:hover {
+  color: grey;
+}
+#link2:visited{
+    color: rgb(98, 39, 98);
+}
+#link2:active{
+    color: white;
+}
+
+/* HIDDEN HEHE */
+
+#secret{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 400%);
+    width: 70px;
+    height: 20px;
+    border-radius: 20px;
+}
