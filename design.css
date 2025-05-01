@@ -43,6 +43,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Arial, sans-serif;
+    display: flex;
     
 }
 
@@ -80,6 +81,10 @@ body{
     text-align: center;
 }
 
+#box0{
+    width: 2000px;
+}
+
 /* Para to sa page two yung css*/
 
 #h2{
@@ -102,7 +107,7 @@ body{
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 10%);
+    transform: translate(-50%, -100%);
 }
 
 #box4{
@@ -113,7 +118,11 @@ body{
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 30%);
+    transform: translate(-50%, -210px);
+}
+
+#box5{
+    width: 2000px;
 }
 
 .a{
@@ -157,4 +166,56 @@ body{
     width: 70px;
     height: 20px;
     border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+    
+    #box1{
+        width: 50%;
+        transform: translate(-50%, -90%);
+    }
+    
+    #box2{
+        width: 40%;
+        transform: translate(-50%, 250%);
+    }
+    
+    #p1{
+        color:white;
+        position: relative;
+        transform: translateX(1px);
+        bottom: -28%;
+        font-size: 60%;
+    }
+    
+    #p2{
+        color:white;
+        position: relative;
+        transform: translateX(1px);
+        bottom: -28%;
+        font-size: 60%;
+    }
+    
+    #p3{
+        color:white;
+        position: relative;
+        transform: translateX(50px);
+        bottom: 20%;
+        font-size: 60%;
+    }
+
+    #img1{
+        left: 20%;
+        position: relative;
+        top: 30px;
+        width: 40%;
+        height: auto;
+     }
+
+     /*  CSS for the hidden page  */
+
+     #secret{
+        transform: translate(-40%, 350%);
+        
+    }
 }
