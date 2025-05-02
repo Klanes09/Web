@@ -1,1 +1,1 @@
-vercel_api_token = "paste mo dito yung vercel token mo"
+vercel_api_token = "EzGXi6wyicWQjr66Vubz0wqG"
